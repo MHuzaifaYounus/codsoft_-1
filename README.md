@@ -27,7 +27,7 @@
 
   <section>
         <h2>Demo</h2>
-        <p>You can view the live demo of the portfolio website <a href="https://example.com" target="_blank">here</a>.</p>
+        <p>You can view the live demo of the portfolio website <a href="https://huzaifayounus.netlify.app" target="_blank">here</a>.</p>
     </section>
     <section>
         <h2>How to Run</h2>
