@@ -1,0 +1,245 @@
+
+.contact{
+
+    width: 100%;
+
+    
+}
+.contact-container{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 1px solid var(--text-theme);
+    background-color: var(--box-theme);
+    background-color: red;
+  
+}
+.contact-title{
+    height: 200px;
+    background-color: var(--darkbox-theme);
+    border-bottom: 1px solid var(--text-theme);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    color: white;
+}
+.contact-title h1{
+    font-size: 2vw;
+    padding-top: 50px;
+    font-weight: 900;
+}
+.contact-title p{
+    font-size: 1vw;
+    padding-top: 20px;
+   
+}
+.contact-details{
+    height: 100%;
+    width: 50%;
+    background-color: orangered;
+
+}
+.contact-details h1{
+    font-size: 1.3vw;
+    font-weight: 700;
+    color: white;
+}
+.contact-form{
+    height: 700px;
+    padding-top: 50px;
+   
+}
+.contact-sub-details{
+    height: 70px;
+    margin-top: 20px;
+ 
+}
+.contact-sub-details i{
+    font-size: 1.4vw;
+    padding: 10px 10px ;
+    margin-top: 10px;
+    color: white;
+    margin-left: 10px;
+    border: 1px solid var(--text-theme);
+    border-radius: 100%;
+ 
+}
+.contact-sub-details a{
+    color: white;
+    font-size: 1vw;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+.contact-sub-details a:hover{
+    color: var(--text-theme);
+}
+
+
+.contact-icons{
+    height: 70px;
+    margin-top: 50px;
+ 
+ 
+}
+.contact-icons a i{
+    font-size: 1.5vw;
+    color: white;
+    border-radius: 100%;
+    padding: 10px 10px;
+    margin-left: 30px;
+    transition: 0.5s;
+    border: 1px solid var(--text-theme);
+
+}
+.contact-icons a i:hover{
+    background-color: var(--text-theme);
+}
+
+.contact-form label{
+    color: white;
+    margin-top: 50px;
+}
+.contact-form input{
+    border: 1px solid var(--text-theme);
+    background-color: #1a5892;
+    height: 50px;
+
+}
+.contact-form textarea{
+    border: 1px solid var(--text-theme);
+    background: transparent;
+    height: 140px;
+    background-color: #1a5892;
+}
+.contact-form button{
+    background-color: var(--text-theme);
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    font-size: 1vw;
+    color: white;
+    font-weight: 500;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.contact-form button:hover{
+    background-color: transparent;
+    
+    border: 1px solid var(--text-theme);
+
+}
+
+
+
+@media screen and (max-width:1030px) {
+   
+    .contact-title h1{
+        font-size: 3vw;
+    }
+    .contact-title p{
+        font-size: 2vw;
+    }
+    .contact-details h1{
+        font-size: 2vw;
+    }
+    .contact-sub-details a{
+        font-size:1.3vw ;
+    }
+    .contact-icons a i{
+        font-size: 1.9vw;
+    }
+    
+}
+
+@media only screen and (max-width:991px) {
+  
+
+    .contact-container{
+        height: 1500px;
+    }
+    .contact-details h1{
+        font-size: 5vw;
+    }
+    .contact-sub-details a{
+        font-size: 2.2vw;
+    }
+    .contact-sub-details i{
+        font-size: 2.4vw;
+    }
+    .contact-icons a i{
+        font-size: 2.5vw;
+    }
+    .contact-form button{
+        font-size: 2vw;
+    }
+    .contact-title h1{
+        font-size: 3.3vw;
+
+    }
+    .contact-title p{
+        font-size: 1.5vw;
+
+    }
+    
+}
+@media only screen and (max-width:575px) {
+    
+    
+    .contact-details h1{
+        font-size: 5vw;
+    }
+    .contact-sub-details a{
+        font-size: 3.2vw;
+    }
+    .contact-sub-details i{
+        font-size: 3.4vw;
+    }
+    .contact-icons a i{
+        font-size: 3.5vw;
+    }
+    .contact-form button{
+        font-size: 3vw;
+    }
+    .contact-title h1{
+        font-size: 5.3vw;
+
+    }
+    .contact-title p{
+        font-size: 2cqmin;
+
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:413px) {
+   
+    .contact-details h1{
+        font-size: 7vw;
+    }
+    .contact-sub-details a{
+        font-size: 4.2vw;
+    }
+    .contact-sub-details i{
+        font-size: 4.4vw;
+    }
+    .contact-icons a i{
+        font-size: 4.5vw;
+    }
+    .contact-form button{
+        font-size: 4vw;
+    }
+    .contact-title h1{
+        font-size: 5.3vw;
+
+    }
+    .contact-title p{
+        font-size: 2.5vw;
+
+    }
+    
+}
